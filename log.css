@@ -1,0 +1,60 @@
+body{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(63, 58, 58)
+}
+  .stick
+  {  
+  width: 5vh;
+  height: 40vh;
+  right: 12vh;
+  background-color: #87f395;
+  transform: skew(-30deg);
+  position: relative}
+    
+
+.stickone{
+content: "";
+position: relative;
+width: 5vh;
+height:40vh;
+background-color: #f86e75;
+transform: skew(35deg);
+left: 13vh;
+
+}
+
+.sticktwo
+{
+  top: 388px;
+  width: 5vh;
+  height: 40vh;
+  right: 19.5vh;
+  background-color: #61ebf5;
+  transform: skew(35deg);
+  position: relative}
+
+
+  .stickthree
+  {  
+  top: 388px;
+  width: 5vh;
+  height: 40vh;
+  right: -5vh;
+  background-color: #97a399;
+  transform: skew(-30deg);
+  position: relative}
+
+  .text
+  {
+    font-size:larger;
+    position: relative;
+    top: 270px;
+    right: 24vh;
+    color: white;
+  }
+
+  b{
+    color: orange;
+  }
